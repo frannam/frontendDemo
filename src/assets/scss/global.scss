@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'GoldenHopes';
+    src: url("../fonts/LovellyAmsterdam.ttf") ;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo {
+    h1 {
+        color: red;
+        font-family: 'GoldenHopes';
+    }    
+}
