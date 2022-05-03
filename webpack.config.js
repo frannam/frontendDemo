@@ -76,9 +76,9 @@ module.exports = {
         })
     ],
 
-    devServer: {
-        port: 3000,
-        static: path.resolve(__dirname, 'src')
-    }
+    // devServer: {
+    //     port: 3000,
+    //     static: path.resolve(__dirname, 'src')
+    // }
 
 }
