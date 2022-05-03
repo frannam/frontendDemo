@@ -24,32 +24,7 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
-            },
-            // {
-            //     test: /\.ico$/,
-            //     loader: 'file-loader',
-            //     options: {
-            //         name: '[name].[ext]',
-            //     }
-            // },
-            // {
-            //     test: /\.(png|jpg|jpeg|svg|gif)$/,
-            //     loader: 'file-loader',
-            //     options: {
-            //         name: '[name].[ext]',
-            //         outputPath: 'images',
-            //         publicPath: './images'
-            //     }
-            // },
-            // {
-            //     test: /\.(woff|woff2|ttf|eot|otf)$/,
-            //     loader: 'file-loader',
-            //     options: {
-            //         name: '[name].[ext]',
-            //         outputPath: 'fonts',
-            //         publicPath: './fonts'
-            //     }
-            // },
+            },           
             {
                 test: /\.(css|sass|scss)$/,
                 use: [
@@ -57,7 +32,6 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ],
-                //loader: 'style-loader!css-loader'
             }
         ],
     },
@@ -74,11 +48,5 @@ module.exports = {
                 },
             ]
         })
-    ],
-
-    // devServer: {
-    //     port: 3000,
-    //     static: path.resolve(__dirname, 'src')
-    // }
-
+    ]
 }
